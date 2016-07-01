@@ -1,14 +1,10 @@
 package com.devin.rent.model;
 
-import static org.junit.Assert.assertNotNull;
-
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import com.google.gson.Gson;
 
 
 /*
@@ -80,26 +76,23 @@ public class RentBreakdown {
 	private static final String jsonFilePath = "C:/Users/DevinB/Desktop/RentBreakdown.txt";
 	
 	public static void main(String[] args) {
-		// Read JSON file
-		JSONParser parser = new JSONParser();
-		JSONObject obj = null;
-		try {
-			obj = (JSONObject) parser.parse(new FileReader(jsonFilePath));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
-		assertNotNull(obj);
-		String rentString = (String) obj.get("baseRent");
-		double rent = Double.parseDouble(rentString);
-		System.out.println(rent);
+		Gson gson = new Gson();
+		BufferedReader br = readFile();
+		Breakdown rb = gson.fromJson(br, Breakdown.class);
 		// Create objects
 		// Make calculations
 		// Create reports
 		// Send emails
 		// Send text messages
+	}
+
+	private static BufferedReader readFile() {
+		BufferedReader br = null;
+		try {
+			br = new BufferedReader(new FileReader(jsonFilePath));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		return br;
 	}
 }
