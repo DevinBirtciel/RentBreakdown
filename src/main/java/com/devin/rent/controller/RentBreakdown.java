@@ -3,6 +3,7 @@ package com.devin.rent.controller;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -61,11 +62,10 @@ public class RentBreakdown {
 	
 	public static void main(String[] args) {
 		Gson gson = new Gson();
-		BufferedReader br = readFile();
-		Breakdown breakdown = gson.fromJson(br, Breakdown.class);
+		Breakdown breakdown = readJSONFile(gson);
 		// Make calculations
 		List<Summary> tallies = Calculator.calculateRents(breakdown);
-		// Create reports
+		// Create Summaries
 		LOGGER.info("\n\n");
 		for(Summary summary : tallies){
 			LOGGER.info("{}", summary);
@@ -74,15 +74,20 @@ public class RentBreakdown {
 		// TODO Send text messages
 	}
 
-	
-
-	private static BufferedReader readFile() {
+	private static Breakdown readJSONFile(Gson gson) {
 		BufferedReader br = null;
+		Breakdown breakdown = null;
 		try {
 			br = new BufferedReader(new FileReader(jsonFilePath));
+			breakdown = gson.fromJson(br, Breakdown.class);
+			br.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
-		return br;
+		return breakdown;
 	}
+
+	
 }
