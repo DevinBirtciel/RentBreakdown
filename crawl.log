@@ -1,0 +1,430 @@
+INFO	2016-07-01 20:54:44,811	0	com.devin.rent.model.RentBreakdown	[main]	Base rent is: $1,630.00
+INFO	2016-07-01 20:54:44,812	1	com.devin.rent.model.RentBreakdown	[main]	Tax rate is: 1.018
+INFO	2016-07-01 20:54:44,812	1	com.devin.rent.model.RentBreakdown	[main]	Calculating Rent for Devin
+INFO	2016-07-01 20:54:44,813	2	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:54:44,813	2	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Abby.
+INFO	2016-07-01 20:54:44,813	2	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $20.00 * 1.018 = $573.47
+INFO	2016-07-01 20:54:44,813	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:54:44,813	2	com.devin.rent.model.RentBreakdown	[main]	$573.47 + $49.61 / 3 = $590.01
+INFO	2016-07-01 20:54:44,813	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:54:44,814	3	com.devin.rent.model.RentBreakdown	[main]	$590.01 + $64.99 / 3 = $611.67
+INFO	2016-07-01 20:54:44,814	3	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:54:44,814	3	com.devin.rent.model.RentBreakdown	[main]	$611.67 + $101.45 / 3 = $645.49
+INFO	2016-07-01 20:54:44,814	3	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:54:44,814	3	com.devin.rent.model.RentBreakdown	[main]	$645.49 + $26.23 / 3 = $654.23
+INFO	2016-07-01 20:54:44,814	3	com.devin.rent.model.RentBreakdown	[main]	Total for Devin is $654.23
+INFO	2016-07-01 20:54:44,815	4	com.devin.rent.model.RentBreakdown	[main]	Calculating Rent for Kevin
+INFO	2016-07-01 20:54:44,815	4	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:54:44,815	4	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:54:44,816	5	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $49.61 / 3 = $569.65
+INFO	2016-07-01 20:54:44,816	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:54:44,816	5	com.devin.rent.model.RentBreakdown	[main]	$569.65 + $64.99 / 3 = $591.31
+INFO	2016-07-01 20:54:44,816	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:54:44,816	5	com.devin.rent.model.RentBreakdown	[main]	$591.31 + $101.45 / 3 = $625.13
+INFO	2016-07-01 20:54:44,817	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:54:44,817	6	com.devin.rent.model.RentBreakdown	[main]	$625.13 + $26.23 / 3 = $633.87
+INFO	2016-07-01 20:54:44,817	6	com.devin.rent.model.RentBreakdown	[main]	Total for Kevin is $633.87
+INFO	2016-07-01 20:54:44,817	6	com.devin.rent.model.RentBreakdown	[main]	Calculating Rent for Valerie
+INFO	2016-07-01 20:54:44,817	6	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:54:44,817	6	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Penny.
+INFO	2016-07-01 20:54:44,818	7	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $30.00 * 1.018 = $583.65
+INFO	2016-07-01 20:54:44,818	7	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:54:44,818	7	com.devin.rent.model.RentBreakdown	[main]	$583.65 + $49.61 / 3 = $600.19
+INFO	2016-07-01 20:54:44,818	7	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:54:44,818	7	com.devin.rent.model.RentBreakdown	[main]	$600.19 + $64.99 / 3 = $621.85
+INFO	2016-07-01 20:54:44,818	7	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:54:44,818	7	com.devin.rent.model.RentBreakdown	[main]	$621.85 + $101.45 / 3 = $655.67
+INFO	2016-07-01 20:54:44,819	8	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:54:44,820	9	com.devin.rent.model.RentBreakdown	[main]	$655.67 + $26.23 / 3 = $664.41
+INFO	2016-07-01 20:54:44,820	9	com.devin.rent.model.RentBreakdown	[main]	Total for Valerie is $664.41
+INFO	2016-07-01 20:55:40,872	0	com.devin.rent.model.RentBreakdown	[main]	Base rent is: $1,630.00
+INFO	2016-07-01 20:55:40,873	1	com.devin.rent.model.RentBreakdown	[main]	Tax rate is: 1.018
+INFO	2016-07-01 20:55:40,873	1	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Devin
+INFO	2016-07-01 20:55:40,873	1	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:55:40,873	1	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Abby.
+INFO	2016-07-01 20:55:40,874	2	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $20.00 * 1.018 = $573.47
+INFO	2016-07-01 20:55:40,874	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:55:40,874	2	com.devin.rent.model.RentBreakdown	[main]	$573.47 + $49.61 / 3 = $590.01
+INFO	2016-07-01 20:55:40,874	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:55:40,874	2	com.devin.rent.model.RentBreakdown	[main]	$590.01 + $64.99 / 3 = $611.67
+INFO	2016-07-01 20:55:40,874	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:55:40,874	2	com.devin.rent.model.RentBreakdown	[main]	$611.67 + $101.45 / 3 = $645.49
+INFO	2016-07-01 20:55:40,874	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:55:40,875	3	com.devin.rent.model.RentBreakdown	[main]	$645.49 + $26.23 / 3 = $654.23
+INFO	2016-07-01 20:55:40,875	3	com.devin.rent.model.RentBreakdown	[main]	Total for Devin is $654.23
+INFO	2016-07-01 20:55:40,876	4	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Kevin
+INFO	2016-07-01 20:55:40,876	4	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:55:40,876	4	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:55:40,876	4	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $49.61 / 3 = $569.65
+INFO	2016-07-01 20:55:40,876	4	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	$569.65 + $64.99 / 3 = $591.31
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	$591.31 + $101.45 / 3 = $625.13
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	$625.13 + $26.23 / 3 = $633.87
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	Total for Kevin is $633.87
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Valerie
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:55:40,877	5	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Penny.
+INFO	2016-07-01 20:55:40,878	6	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $30.00 * 1.018 = $583.65
+INFO	2016-07-01 20:55:40,878	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:55:40,878	6	com.devin.rent.model.RentBreakdown	[main]	$583.65 + $49.61 / 3 = $600.19
+INFO	2016-07-01 20:55:40,878	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:55:40,878	6	com.devin.rent.model.RentBreakdown	[main]	$600.19 + $64.99 / 3 = $621.85
+INFO	2016-07-01 20:55:40,878	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:55:40,878	6	com.devin.rent.model.RentBreakdown	[main]	$621.85 + $101.45 / 3 = $655.67
+INFO	2016-07-01 20:55:40,878	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:55:40,880	8	com.devin.rent.model.RentBreakdown	[main]	$655.67 + $26.23 / 3 = $664.41
+INFO	2016-07-01 20:55:40,880	8	com.devin.rent.model.RentBreakdown	[main]	Total for Valerie is $664.41
+INFO	2016-07-01 20:56:12,792	0	com.devin.rent.model.RentBreakdown	[main]	Base rent is: $1,630.00
+INFO	2016-07-01 20:56:12,793	1	com.devin.rent.model.RentBreakdown	[main]	Tax rate is: 1.018
+INFO	2016-07-01 20:56:12,793	1	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Devin
+INFO	2016-07-01 20:56:12,794	2	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:56:12,794	2	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Abby.
+INFO	2016-07-01 20:56:12,794	2	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $20.00 * 1.018 = $573.47
+INFO	2016-07-01 20:56:12,795	3	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:56:12,795	3	com.devin.rent.model.RentBreakdown	[main]	$573.47 + $49.61 / 3 = $590.01
+INFO	2016-07-01 20:56:12,795	3	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:56:12,795	3	com.devin.rent.model.RentBreakdown	[main]	$590.01 + $64.99 / 3 = $611.67
+INFO	2016-07-01 20:56:12,795	3	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:56:12,795	3	com.devin.rent.model.RentBreakdown	[main]	$611.67 + $101.45 / 3 = $645.49
+INFO	2016-07-01 20:56:12,796	4	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:56:12,796	4	com.devin.rent.model.RentBreakdown	[main]	$645.49 + $26.23 / 3 = $654.23
+INFO	2016-07-01 20:56:12,796	4	com.devin.rent.model.RentBreakdown	[main]	Total for Devin is $654.23
+INFO	2016-07-01 20:56:12,797	5	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Kevin
+INFO	2016-07-01 20:56:12,797	5	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:56:12,797	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:56:12,797	5	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $49.61 / 3 = $569.65
+INFO	2016-07-01 20:56:12,797	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:56:12,798	6	com.devin.rent.model.RentBreakdown	[main]	$569.65 + $64.99 / 3 = $591.31
+INFO	2016-07-01 20:56:12,798	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:56:12,798	6	com.devin.rent.model.RentBreakdown	[main]	$591.31 + $101.45 / 3 = $625.13
+INFO	2016-07-01 20:56:12,798	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:56:12,798	6	com.devin.rent.model.RentBreakdown	[main]	$625.13 + $26.23 / 3 = $633.87
+INFO	2016-07-01 20:56:12,798	6	com.devin.rent.model.RentBreakdown	[main]	Total for Kevin is $633.87
+INFO	2016-07-01 20:56:12,798	6	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Valerie
+INFO	2016-07-01 20:56:12,798	6	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:56:12,799	7	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Penny.
+INFO	2016-07-01 20:56:12,799	7	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $30.00 * 1.018 = $583.65
+INFO	2016-07-01 20:56:12,799	7	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:56:12,799	7	com.devin.rent.model.RentBreakdown	[main]	$583.65 + $49.61 / 3 = $600.19
+INFO	2016-07-01 20:56:12,799	7	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:56:12,799	7	com.devin.rent.model.RentBreakdown	[main]	$600.19 + $64.99 / 3 = $621.85
+INFO	2016-07-01 20:56:12,799	7	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:56:12,800	8	com.devin.rent.model.RentBreakdown	[main]	$621.85 + $101.45 / 3 = $655.67
+INFO	2016-07-01 20:56:12,800	8	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:56:12,800	8	com.devin.rent.model.RentBreakdown	[main]	$655.67 + $26.23 / 3 = $664.41
+INFO	2016-07-01 20:56:12,800	8	com.devin.rent.model.RentBreakdown	[main]	Total for Valerie is $664.41
+INFO	2016-07-01 20:56:12,801	9	com.devin.rent.model.RentBreakdown	[main]	Kevin owes $633.87 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 20:56:12,801	9	com.devin.rent.model.RentBreakdown	[main]	Valerie owes $664.41 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 20:56:12,801	9	com.devin.rent.model.RentBreakdown	[main]	Devin owes $654.23 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 20:56:45,747	0	com.devin.rent.model.RentBreakdown	[main]	Base rent is: $1,630.00
+INFO	2016-07-01 20:56:45,749	2	com.devin.rent.model.RentBreakdown	[main]	Tax rate is: 1.018
+INFO	2016-07-01 20:56:45,749	2	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Devin
+INFO	2016-07-01 20:56:45,749	2	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:56:45,749	2	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Abby.
+INFO	2016-07-01 20:56:45,749	2	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $20.00 * 1.018 = $573.47
+INFO	2016-07-01 20:56:45,749	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:56:45,749	2	com.devin.rent.model.RentBreakdown	[main]	$573.47 + $49.61 / 3 = $590.01
+INFO	2016-07-01 20:56:45,750	3	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:56:45,750	3	com.devin.rent.model.RentBreakdown	[main]	$590.01 + $64.99 / 3 = $611.67
+INFO	2016-07-01 20:56:45,750	3	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:56:45,750	3	com.devin.rent.model.RentBreakdown	[main]	$611.67 + $101.45 / 3 = $645.49
+INFO	2016-07-01 20:56:45,750	3	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:56:45,750	3	com.devin.rent.model.RentBreakdown	[main]	$645.49 + $26.23 / 3 = $654.23
+INFO	2016-07-01 20:56:45,750	3	com.devin.rent.model.RentBreakdown	[main]	Total for Devin is $654.23
+INFO	2016-07-01 20:56:45,751	4	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Kevin
+INFO	2016-07-01 20:56:45,751	4	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:56:45,751	4	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:56:45,751	4	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $49.61 / 3 = $569.65
+INFO	2016-07-01 20:56:45,751	4	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:56:45,752	5	com.devin.rent.model.RentBreakdown	[main]	$569.65 + $64.99 / 3 = $591.31
+INFO	2016-07-01 20:56:45,752	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:56:45,752	5	com.devin.rent.model.RentBreakdown	[main]	$591.31 + $101.45 / 3 = $625.13
+INFO	2016-07-01 20:56:45,752	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:56:45,752	5	com.devin.rent.model.RentBreakdown	[main]	$625.13 + $26.23 / 3 = $633.87
+INFO	2016-07-01 20:56:45,752	5	com.devin.rent.model.RentBreakdown	[main]	Total for Kevin is $633.87
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Valerie
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	$1,630.00 / 3 * 1.018 = $553.11
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Penny.
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	$553.11 + $30.00 * 1.018 = $583.65
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	$583.65 + $49.61 / 3 = $600.19
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	$600.19 + $64.99 / 3 = $621.85
+INFO	2016-07-01 20:56:45,753	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 20:56:45,754	7	com.devin.rent.model.RentBreakdown	[main]	$621.85 + $101.45 / 3 = $655.67
+INFO	2016-07-01 20:56:45,754	7	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 20:56:45,754	7	com.devin.rent.model.RentBreakdown	[main]	$655.67 + $26.23 / 3 = $664.41
+INFO	2016-07-01 20:56:45,754	7	com.devin.rent.model.RentBreakdown	[main]	Total for Valerie is $664.41
+INFO	2016-07-01 20:56:45,755	8	com.devin.rent.model.RentBreakdown	[main]	
+
+
+INFO	2016-07-01 20:56:45,755	8	com.devin.rent.model.RentBreakdown	[main]	Kevin owes $633.87 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 20:56:45,755	8	com.devin.rent.model.RentBreakdown	[main]	Valerie owes $664.41 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 20:56:45,755	8	com.devin.rent.model.RentBreakdown	[main]	Devin owes $654.23 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:09:29,075	0	com.devin.rent.model.RentBreakdown	[main]	Base rent is: $1,430.00
+INFO	2016-07-01 21:09:29,092	17	com.devin.rent.model.RentBreakdown	[main]	Tax rate is: 1.018
+INFO	2016-07-01 21:09:29,092	17	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Devin
+INFO	2016-07-01 21:09:29,092	17	com.devin.rent.model.RentBreakdown	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:09:29,092	17	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Abby.
+INFO	2016-07-01 21:09:29,092	17	com.devin.rent.model.RentBreakdown	[main]	$485.25 + $20.00 * 1.018 = $505.61
+INFO	2016-07-01 21:09:29,093	18	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:09:29,093	18	com.devin.rent.model.RentBreakdown	[main]	$505.61 + $49.61 / 3 = $522.14
+INFO	2016-07-01 21:09:29,093	18	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 21:09:29,093	18	com.devin.rent.model.RentBreakdown	[main]	$522.14 + $64.99 / 3 = $543.81
+INFO	2016-07-01 21:09:29,093	18	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 21:09:29,093	18	com.devin.rent.model.RentBreakdown	[main]	$543.81 + $101.45 / 3 = $577.62
+INFO	2016-07-01 21:09:29,093	18	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 21:09:29,093	18	com.devin.rent.model.RentBreakdown	[main]	$577.62 + $26.23 / 3 = $586.37
+INFO	2016-07-01 21:09:29,094	19	com.devin.rent.model.RentBreakdown	[main]	Total for Devin is $586.37
+INFO	2016-07-01 21:09:29,094	19	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Kevin
+INFO	2016-07-01 21:09:29,095	20	com.devin.rent.model.RentBreakdown	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:09:29,095	20	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:09:29,095	20	com.devin.rent.model.RentBreakdown	[main]	$485.25 + $49.61 / 3 = $501.78
+INFO	2016-07-01 21:09:29,095	20	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 21:09:29,095	20	com.devin.rent.model.RentBreakdown	[main]	$501.78 + $64.99 / 3 = $523.45
+INFO	2016-07-01 21:09:29,095	20	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 21:09:29,095	20	com.devin.rent.model.RentBreakdown	[main]	$523.45 + $101.45 / 3 = $557.26
+INFO	2016-07-01 21:09:29,096	21	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 21:09:29,096	21	com.devin.rent.model.RentBreakdown	[main]	$557.26 + $26.23 / 3 = $566.01
+INFO	2016-07-01 21:09:29,096	21	com.devin.rent.model.RentBreakdown	[main]	Total for Kevin is $566.01
+INFO	2016-07-01 21:09:29,096	21	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Valerie
+INFO	2016-07-01 21:09:29,096	21	com.devin.rent.model.RentBreakdown	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:09:29,096	21	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Penny.
+INFO	2016-07-01 21:09:29,096	21	com.devin.rent.model.RentBreakdown	[main]	$485.25 + $30.00 * 1.018 = $515.79
+INFO	2016-07-01 21:09:29,097	22	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:09:29,097	22	com.devin.rent.model.RentBreakdown	[main]	$515.79 + $49.61 / 3 = $532.32
+INFO	2016-07-01 21:09:29,097	22	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 21:09:29,097	22	com.devin.rent.model.RentBreakdown	[main]	$532.32 + $64.99 / 3 = $553.99
+INFO	2016-07-01 21:09:29,097	22	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 21:09:29,097	22	com.devin.rent.model.RentBreakdown	[main]	$553.99 + $101.45 / 3 = $587.80
+INFO	2016-07-01 21:09:29,098	23	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 21:09:29,099	24	com.devin.rent.model.RentBreakdown	[main]	$587.80 + $26.23 / 3 = $596.55
+INFO	2016-07-01 21:09:29,099	24	com.devin.rent.model.RentBreakdown	[main]	Total for Valerie is $596.55
+INFO	2016-07-01 21:09:29,099	24	com.devin.rent.model.RentBreakdown	[main]	
+
+
+INFO	2016-07-01 21:09:29,100	25	com.devin.rent.model.RentBreakdown	[main]	Kevin owes $566.01 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:09:29,100	25	com.devin.rent.model.RentBreakdown	[main]	Valerie owes $596.55 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:09:29,100	25	com.devin.rent.model.RentBreakdown	[main]	Devin owes $586.37 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:12:06,959	0	com.devin.rent.model.RentBreakdown	[main]	Base rent is: $1,430.00
+INFO	2016-07-01 21:12:06,960	1	com.devin.rent.model.RentBreakdown	[main]	Tax rate is: 1.018
+INFO	2016-07-01 21:12:06,960	1	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Devin
+INFO	2016-07-01 21:12:06,960	1	com.devin.rent.model.RentBreakdown	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Abby.
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	$485.25 + $20.00 * 1.018 = $505.61
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	$505.61 + $49.61 / 3 = $522.14
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	$522.14 + $43.33 / 3 = $536.59
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	$536.59 + $101.45 / 3 = $570.40
+INFO	2016-07-01 21:12:06,961	2	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 21:12:06,962	3	com.devin.rent.model.RentBreakdown	[main]	$570.40 + $26.23 / 3 = $579.15
+INFO	2016-07-01 21:12:06,962	3	com.devin.rent.model.RentBreakdown	[main]	Total for Devin is $579.15
+INFO	2016-07-01 21:12:06,962	3	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Kevin
+INFO	2016-07-01 21:12:06,963	4	com.devin.rent.model.RentBreakdown	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:12:06,963	4	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:12:06,963	4	com.devin.rent.model.RentBreakdown	[main]	$485.25 + $49.61 / 3 = $501.78
+INFO	2016-07-01 21:12:06,963	4	com.devin.rent.model.RentBreakdown	[main]	Adding in Cable bill
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	$501.78 + $43.33 / 3 = $516.23
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	$516.23 + $101.45 / 3 = $550.04
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	$550.04 + $26.23 / 3 = $558.79
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	Total for Kevin is $558.79
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	
+
+Calculating Rent for Valerie
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:12:06,964	5	com.devin.rent.model.RentBreakdown	[main]	Adding in rent for Penny.
+INFO	2016-07-01 21:12:06,965	6	com.devin.rent.model.RentBreakdown	[main]	$485.25 + $30.00 * 1.018 = $515.79
+INFO	2016-07-01 21:12:06,965	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:12:06,965	6	com.devin.rent.model.RentBreakdown	[main]	$515.79 + $49.61 / 3 = $532.32
+INFO	2016-07-01 21:12:06,965	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Electric bill
+INFO	2016-07-01 21:12:06,965	6	com.devin.rent.model.RentBreakdown	[main]	$532.32 + $101.45 / 3 = $566.14
+INFO	2016-07-01 21:12:06,965	6	com.devin.rent.model.RentBreakdown	[main]	Adding in Gas bill
+INFO	2016-07-01 21:12:06,966	7	com.devin.rent.model.RentBreakdown	[main]	$566.14 + $26.23 / 3 = $574.88
+INFO	2016-07-01 21:12:06,966	7	com.devin.rent.model.RentBreakdown	[main]	Total for Valerie is $574.88
+INFO	2016-07-01 21:12:06,966	7	com.devin.rent.model.RentBreakdown	[main]	
+
+
+INFO	2016-07-01 21:12:06,966	7	com.devin.rent.model.RentBreakdown	[main]	Kevin owes $558.79 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:12:06,966	7	com.devin.rent.model.RentBreakdown	[main]	Valerie owes $574.88 for Rent, Utility Smart, Electric, Gas.
+INFO	2016-07-01 21:12:06,967	8	com.devin.rent.model.RentBreakdown	[main]	Devin owes $579.15 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:20:20,256	0	com.devin.rent.model.Calculator	[main]	Base rent is: $1,430.00
+INFO	2016-07-01 21:20:20,258	2	com.devin.rent.model.Calculator	[main]	Tax rate is: 1.018
+INFO	2016-07-01 21:20:20,258	2	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Devin
+INFO	2016-07-01 21:20:20,259	3	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:20:20,259	3	com.devin.rent.model.Calculator	[main]	Adding in rent for Abby.
+INFO	2016-07-01 21:20:20,259	3	com.devin.rent.model.Calculator	[main]	$485.25 + $20.00 * 1.018 = $505.61
+INFO	2016-07-01 21:20:20,260	4	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:20:20,260	4	com.devin.rent.model.Calculator	[main]	$505.61 + $49.61 / 3 = $522.14
+INFO	2016-07-01 21:20:20,260	4	com.devin.rent.model.Calculator	[main]	Adding in Cable bill
+INFO	2016-07-01 21:20:20,264	8	com.devin.rent.model.Calculator	[main]	$522.14 + $43.33 / 3 = $536.59
+INFO	2016-07-01 21:20:20,265	9	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:20:20,265	9	com.devin.rent.model.Calculator	[main]	$536.59 + $101.45 / 3 = $570.40
+INFO	2016-07-01 21:20:20,265	9	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:20:20,266	10	com.devin.rent.model.Calculator	[main]	$570.40 + $26.23 / 3 = $579.15
+INFO	2016-07-01 21:20:20,266	10	com.devin.rent.model.Calculator	[main]	Total for Devin is $579.15
+INFO	2016-07-01 21:20:20,269	13	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Kevin
+INFO	2016-07-01 21:20:20,269	13	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:20:20,269	13	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:20:20,269	13	com.devin.rent.model.Calculator	[main]	$485.25 + $49.61 / 3 = $501.78
+INFO	2016-07-01 21:20:20,270	14	com.devin.rent.model.Calculator	[main]	Adding in Cable bill
+INFO	2016-07-01 21:20:20,270	14	com.devin.rent.model.Calculator	[main]	$501.78 + $43.33 / 3 = $516.23
+INFO	2016-07-01 21:20:20,270	14	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:20:20,271	15	com.devin.rent.model.Calculator	[main]	$516.23 + $101.45 / 3 = $550.04
+INFO	2016-07-01 21:20:20,271	15	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:20:20,271	15	com.devin.rent.model.Calculator	[main]	$550.04 + $26.23 / 3 = $558.79
+INFO	2016-07-01 21:20:20,271	15	com.devin.rent.model.Calculator	[main]	Total for Kevin is $558.79
+INFO	2016-07-01 21:20:20,271	15	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Valerie
+INFO	2016-07-01 21:20:20,271	15	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:20:20,272	16	com.devin.rent.model.Calculator	[main]	Adding in rent for Penny.
+INFO	2016-07-01 21:20:20,272	16	com.devin.rent.model.Calculator	[main]	$485.25 + $30.00 * 1.018 = $515.79
+INFO	2016-07-01 21:20:20,274	18	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:20:20,274	18	com.devin.rent.model.Calculator	[main]	$515.79 + $49.61 / 3 = $532.32
+INFO	2016-07-01 21:20:20,275	19	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:20:20,275	19	com.devin.rent.model.Calculator	[main]	$532.32 + $101.45 / 3 = $566.14
+INFO	2016-07-01 21:20:20,275	19	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:20:20,276	20	com.devin.rent.model.Calculator	[main]	$566.14 + $26.23 / 3 = $574.88
+INFO	2016-07-01 21:20:20,276	20	com.devin.rent.model.Calculator	[main]	Total for Valerie is $574.88
+INFO	2016-07-01 21:20:20,278	22	com.devin.rent.model.RentBreakdown	[main]	
+
+
+INFO	2016-07-01 21:20:20,279	23	com.devin.rent.model.RentBreakdown	[main]	Kevin owes $558.79 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:20:20,279	23	com.devin.rent.model.RentBreakdown	[main]	Valerie owes $574.88 for Rent, Utility Smart, Electric, Gas.
+INFO	2016-07-01 21:20:20,279	23	com.devin.rent.model.RentBreakdown	[main]	Devin owes $579.15 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:22:18,129	0	com.devin.rent.model.Calculator	[main]	Base rent is: $1,430.00
+INFO	2016-07-01 21:22:18,130	1	com.devin.rent.model.Calculator	[main]	Tax rate is: 1.018
+INFO	2016-07-01 21:22:18,130	1	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Devin
+INFO	2016-07-01 21:22:18,130	1	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:22:18,130	1	com.devin.rent.model.Calculator	[main]	Adding in rent for Abby.
+INFO	2016-07-01 21:22:18,131	2	com.devin.rent.model.Calculator	[main]	$485.25 + $20.00 * 1.018 = $505.61
+INFO	2016-07-01 21:22:18,131	2	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:22:18,131	2	com.devin.rent.model.Calculator	[main]	$505.61 + $49.61 / 3 = $522.14
+INFO	2016-07-01 21:22:18,131	2	com.devin.rent.model.Calculator	[main]	Adding in Cable bill
+INFO	2016-07-01 21:22:18,131	2	com.devin.rent.model.Calculator	[main]	$522.14 + $43.33 / 3 = $536.59
+INFO	2016-07-01 21:22:18,131	2	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:22:18,132	3	com.devin.rent.model.Calculator	[main]	$536.59 + $101.45 / 3 = $570.40
+INFO	2016-07-01 21:22:18,132	3	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:22:18,133	4	com.devin.rent.model.Calculator	[main]	$570.40 + $26.23 / 3 = $579.15
+INFO	2016-07-01 21:22:18,133	4	com.devin.rent.model.Calculator	[main]	Total for Devin is $579.15
+INFO	2016-07-01 21:22:18,135	6	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Kevin
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	$485.25 + $49.61 / 3 = $501.78
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	Adding in Cable bill
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	$501.78 + $43.33 / 3 = $516.23
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	$516.23 + $101.45 / 3 = $550.04
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:22:18,136	7	com.devin.rent.model.Calculator	[main]	$550.04 + $26.23 / 3 = $558.79
+INFO	2016-07-01 21:22:18,137	8	com.devin.rent.model.Calculator	[main]	Total for Kevin is $558.79
+INFO	2016-07-01 21:22:18,137	8	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Valerie
+INFO	2016-07-01 21:22:18,137	8	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:22:18,137	8	com.devin.rent.model.Calculator	[main]	Adding in rent for Penny.
+INFO	2016-07-01 21:22:18,137	8	com.devin.rent.model.Calculator	[main]	$485.25 + $30.00 * 1.018 = $515.79
+INFO	2016-07-01 21:22:18,137	8	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:22:18,137	8	com.devin.rent.model.Calculator	[main]	$515.79 + $49.61 / 3 = $532.32
+INFO	2016-07-01 21:22:18,137	8	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:22:18,138	9	com.devin.rent.model.Calculator	[main]	$532.32 + $101.45 / 3 = $566.14
+INFO	2016-07-01 21:22:18,138	9	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:22:18,138	9	com.devin.rent.model.Calculator	[main]	$566.14 + $26.23 / 3 = $574.88
+INFO	2016-07-01 21:22:18,138	9	com.devin.rent.model.Calculator	[main]	Total for Valerie is $574.88
+INFO	2016-07-01 21:22:18,138	9	com.devin.rent.model.RentBreakdown	[main]	
+
+
+INFO	2016-07-01 21:22:18,139	10	com.devin.rent.model.RentBreakdown	[main]	Devin owes $579.15 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:22:18,139	10	com.devin.rent.model.RentBreakdown	[main]	Kevin owes $558.79 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:22:18,139	10	com.devin.rent.model.RentBreakdown	[main]	Valerie owes $574.88 for Rent, Utility Smart, Electric, Gas.
+INFO	2016-07-01 21:24:40,277	0	com.devin.rent.model.Calculator	[main]	Base rent is: $1,430.00
+INFO	2016-07-01 21:24:40,279	2	com.devin.rent.model.Calculator	[main]	Tax rate is: 1.018
+INFO	2016-07-01 21:24:40,279	2	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Devin
+INFO	2016-07-01 21:24:40,279	2	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:24:40,279	2	com.devin.rent.model.Calculator	[main]	Adding in rent for Abby.
+INFO	2016-07-01 21:24:40,279	2	com.devin.rent.model.Calculator	[main]	$485.25 + $20.00 * 1.018 = $505.61
+INFO	2016-07-01 21:24:40,280	3	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:24:40,280	3	com.devin.rent.model.Calculator	[main]	$505.61 + $49.61 / 3 = $522.14
+INFO	2016-07-01 21:24:40,280	3	com.devin.rent.model.Calculator	[main]	Adding in Cable bill
+INFO	2016-07-01 21:24:40,280	3	com.devin.rent.model.Calculator	[main]	$522.14 + $43.33 / 3 = $536.59
+INFO	2016-07-01 21:24:40,280	3	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:24:40,280	3	com.devin.rent.model.Calculator	[main]	$536.59 + $101.45 / 3 = $570.40
+INFO	2016-07-01 21:24:40,280	3	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:24:40,281	4	com.devin.rent.model.Calculator	[main]	$570.40 + $26.23 / 3 = $579.15
+INFO	2016-07-01 21:24:40,281	4	com.devin.rent.model.Calculator	[main]	Total for Devin is $579.15
+INFO	2016-07-01 21:24:40,283	6	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Kevin
+INFO	2016-07-01 21:24:40,283	6	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:24:40,284	7	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:24:40,284	7	com.devin.rent.model.Calculator	[main]	$485.25 + $49.61 / 3 = $501.78
+INFO	2016-07-01 21:24:40,284	7	com.devin.rent.model.Calculator	[main]	Adding in Cable bill
+INFO	2016-07-01 21:24:40,284	7	com.devin.rent.model.Calculator	[main]	$501.78 + $43.33 / 3 = $516.23
+INFO	2016-07-01 21:24:40,284	7	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:24:40,284	7	com.devin.rent.model.Calculator	[main]	$516.23 + $101.45 / 3 = $550.04
+INFO	2016-07-01 21:24:40,284	7	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:24:40,284	7	com.devin.rent.model.Calculator	[main]	$550.04 + $26.23 / 3 = $558.79
+INFO	2016-07-01 21:24:40,285	8	com.devin.rent.model.Calculator	[main]	Total for Kevin is $558.79
+INFO	2016-07-01 21:24:40,285	8	com.devin.rent.model.Calculator	[main]	
+
+Calculating Rent for Valerie
+INFO	2016-07-01 21:24:40,285	8	com.devin.rent.model.Calculator	[main]	$1,430.00 / 3 * 1.018 = $485.25
+INFO	2016-07-01 21:24:40,286	9	com.devin.rent.model.Calculator	[main]	Adding in rent for Penny.
+INFO	2016-07-01 21:24:40,286	9	com.devin.rent.model.Calculator	[main]	$485.25 + $30.00 * 1.018 = $515.79
+INFO	2016-07-01 21:24:40,286	9	com.devin.rent.model.Calculator	[main]	Adding in Utility Smart bill
+INFO	2016-07-01 21:24:40,287	10	com.devin.rent.model.Calculator	[main]	$515.79 + $49.61 / 3 = $532.32
+INFO	2016-07-01 21:24:40,287	10	com.devin.rent.model.Calculator	[main]	Adding in Electric bill
+INFO	2016-07-01 21:24:40,287	10	com.devin.rent.model.Calculator	[main]	$532.32 + $101.45 / 3 = $566.14
+INFO	2016-07-01 21:24:40,287	10	com.devin.rent.model.Calculator	[main]	Adding in Gas bill
+INFO	2016-07-01 21:24:40,287	10	com.devin.rent.model.Calculator	[main]	$566.14 + $26.23 / 3 = $574.88
+INFO	2016-07-01 21:24:40,287	10	com.devin.rent.model.Calculator	[main]	Total for Valerie is $574.88
+INFO	2016-07-01 21:24:40,288	11	com.devin.rent.model.RentBreakdown	[main]	
+
+
+INFO	2016-07-01 21:24:40,289	12	com.devin.rent.model.RentBreakdown	[main]	Devin owes $579.15 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:24:40,289	12	com.devin.rent.model.RentBreakdown	[main]	Kevin owes $558.79 for Rent, Utility Smart, Cable, Electric, Gas.
+INFO	2016-07-01 21:24:40,289	12	com.devin.rent.model.RentBreakdown	[main]	Valerie owes $574.88 for Rent, Utility Smart, Electric, Gas.

@@ -5,20 +5,20 @@ import java.util.List;
 
 public class Utility implements Serializable{
 	private static final long serialVersionUID = 1302113817245220872L;
-	private String name;
-	private double cost;
+	private String utilityName;
+	private double utilityCost;
 	private List<String> splitBill;
-	public String getName() {
-		return name;
+	public String getUtilityName() {
+		return utilityName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setUtilityName(String name) {
+		this.utilityName = name;
 	}
-	public double getCost() {
-		return cost;
+	public double getUtilityCost() {
+		return utilityCost;
 	}
-	public void setCost(double cost) {
-		this.cost = cost;
+	public void setUtilityCost(double cost) {
+		this.utilityCost = cost;
 	}
 	public List<String> getSplitBill() {
 		return splitBill;
