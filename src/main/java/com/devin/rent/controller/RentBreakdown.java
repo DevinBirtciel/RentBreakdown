@@ -6,12 +6,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.devin.rent.model.Breakdown;
 import com.devin.rent.model.Calculator;
 import com.devin.rent.model.Summary;
+import com.devin.rent.model.email.MailServlet;
 import com.google.gson.Gson;
 
 /*
@@ -70,7 +73,9 @@ public class RentBreakdown {
 		for(Summary summary : tallies){
 			LOGGER.info("{}", summary);
 		}
-		// TODO Send emails
+		// Send emails
+		
+		
 		// TODO Send text messages
 	}
 
