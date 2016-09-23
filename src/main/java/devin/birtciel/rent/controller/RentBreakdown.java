@@ -20,7 +20,6 @@ import devin.birtciel.rent.model.Summary;
  * Goals for this project:
  * Read from local JSON file on my machine containing information about people.
  * Process the JSON file and calculate rent breakdowns for each person.
- * Email a full rent breakdown to each person, and send them a text message with a short summary.
  * 
  * Requirements:
  * Must appropriately split rent.
