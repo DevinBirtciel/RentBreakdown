@@ -26,8 +26,6 @@ import devin.birtciel.rent.model.Summary;
  * Must appropriately split rent.
  * Must handle pets, pet fees, and taxes on pet fees so only pet owner pays for pet.
  * Must handle variable number of utilities per person
- * Must email a detailed rent breakdown
- * Must text a summary total with which bills were included
  * 
  * JSON format:
 {
@@ -57,7 +55,7 @@ import devin.birtciel.rent.model.Summary;
  */
 public class RentBreakdown {
 
-	private static final String jsonFilePath = Paths.get("RentBreakdownInput.txt").toString();// "C:/Users/DevinB/Desktop/RentBreakdown.txt";
+	private static final String jsonFilePath = Paths.get("RentBreakdownInput.txt").toString();
 	private static final Logger LOGGER = LoggerFactory.getLogger(RentBreakdown.class);
 
 	public static void main(String[] args) {
