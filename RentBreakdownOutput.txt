@@ -1,0 +1,49 @@
+Base rent is: $1,430.00
+Tax rate is: 1.018
+
+
+Calculating Rent for Devin
+$1,430.00 / 3 * 1.018 = $485.25
+Adding in rent for Abby.
+$485.25 + $20.00 * 1.018 = $505.61
+Adding in Utility Smart bill
+$505.61 + $60.86 / 3 = $525.89
+Adding in Cable bill
+$525.89 + $43.33 / 2 = $547.56
+Adding in Electric bill
+$547.56 + $153.81 / 3 = $598.83
+Adding in Gas bill
+$598.83 + $23.56 / 3 = $606.68
+Total for Devin is $606.68
+
+
+Calculating Rent for Kevin
+$1,430.00 / 3 * 1.018 = $485.25
+Adding in Utility Smart bill
+$485.25 + $60.86 / 3 = $505.53
+Adding in Cable bill
+$505.53 + $43.33 / 2 = $527.20
+Adding in Electric bill
+$527.20 + $153.81 / 3 = $578.47
+Adding in Gas bill
+$578.47 + $23.56 / 3 = $586.32
+Total for Kevin is $586.32
+
+
+Calculating Rent for Valerie
+$1,430.00 / 3 * 1.018 = $485.25
+Adding in rent for Penny.
+$485.25 + $30.00 * 1.018 = $515.79
+Adding in Utility Smart bill
+$515.79 + $60.86 / 3 = $536.07
+Adding in Electric bill
+$536.07 + $153.81 / 3 = $587.34
+Adding in Gas bill
+$587.34 + $23.56 / 3 = $595.20
+Total for Valerie is $595.20
+
+
+
+Devin owes $606.68 for Rent, Utility Smart, Cable, Electric, Gas.
+Kevin owes $586.32 for Rent, Utility Smart, Cable, Electric, Gas.
+Valerie owes $595.20 for Rent, Utility Smart, Electric, Gas.

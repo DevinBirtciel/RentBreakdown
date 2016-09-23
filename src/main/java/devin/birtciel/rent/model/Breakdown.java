@@ -1,4 +1,4 @@
-package com.devin.rent.model;
+package devin.birtciel.rent.model;
 
 import java.io.Serializable;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.devin.rent.model;
+package devin.birtciel.rent.model;
 
 import java.text.DecimalFormat;
 

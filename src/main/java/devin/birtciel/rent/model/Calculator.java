@@ -1,4 +1,4 @@
-package com.devin.rent.model;
+package devin.birtciel.rent.model;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public class Calculator {
 			String name = tenant.getName();
 			LOGGER.info("\n\nCalculating Rent for {}", name);
 			double total = calculateRent(tenant, baseRent, taxRate, numberTenants);
-			total = addUtilities(name, total, utilities, numberTenants);
+			total = addUtilities(name, total, utilities);
 			LOGGER.info("Total for {} is {}", name, format.format(total));
 			String bills = "Rent";
 			bills += constructBillsString(name, utilities);
@@ -49,14 +49,15 @@ public class Calculator {
 		return bills;
 	}
 
-	private static double addUtilities(String name, double total, List<Utility> utilities, int numberTenants) {
+	private static double addUtilities(String name, double total, List<Utility> utilities) {
 		for(Utility utility : utilities){
 			if(utility.getSplitBill().contains(name)){
 				double tempTotal = total;
 				double utilityCost = utility.getUtilityCost();
 				LOGGER.info("Adding in {} bill", utility.getUtilityName());
-				total += utilityCost / numberTenants;
-				LOGGER.info("{} + {} / {} = {}", format.format(tempTotal), format.format(utilityCost), numberTenants, format.format(total));
+				int numberPeopleSplittingUtility = utility.getSplitBill().size();
+				total += utilityCost / numberPeopleSplittingUtility;
+				LOGGER.info("{} + {} / {} = {}", format.format(tempTotal), format.format(utilityCost), numberPeopleSplittingUtility, format.format(total));
 			}
 		}
 		return total;

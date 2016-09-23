@@ -1,0 +1,50 @@
+{
+	"baseRent":"1430",
+	"taxRate":"1.018",
+	"utilities":[
+		{
+			"utilityName":"Utility Smart",
+			"utilityCost":"60.86",
+			"splitBill":["Devin" ,"Kevin","Valerie"]
+		},
+		{
+			"utilityName":"Cable",
+			"utilityCost":"43.33",
+			"splitBill":["Devin" ,"Kevin"]
+		},
+		{
+			"utilityName":"Electric",
+			"utilityCost":"153.81",
+			"splitBill":["Devin" ,"Kevin","Valerie"]
+		},
+		{
+			"utilityName":"Gas",
+			"utilityCost":"23.56",
+			"splitBill":["Devin" ,"Kevin","Valerie"]
+		}
+	],
+	"tenants":[
+		{
+			"name":"Devin",
+			"pets":[
+				{
+					"petName":"Abby",
+					"petCost":"20.00"
+				}
+			]
+		},
+		{
+			"name":"Kevin",
+			"pets":[]
+		},
+		{
+			"name":"Valerie",
+			"pets":[
+				{
+					"petName":"Penny",
+					"petCost":"30.00"
+				}
+			]
+		}
+	]
+}
