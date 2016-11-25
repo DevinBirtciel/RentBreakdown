@@ -7,43 +7,37 @@ $1,430.00 / 3 * 1.018 = $485.25
 Adding in rent for Abby.
 $485.25 + $20.00 * 1.018 = $505.61
 Adding in Utility Smart bill
-$505.61 + $60.86 / 3 = $525.89
+$505.61 + $82.15 / 2 = $546.68
 Adding in Cable bill
-$525.89 + $43.33 / 2 = $547.56
+$546.68 + $64.99 / 2 = $579.18
 Adding in Electric bill
-$547.56 + $153.81 / 3 = $598.83
+$579.18 + $66.84 / 2 = $612.60
 Adding in Gas bill
-$598.83 + $23.56 / 3 = $606.68
-Total for Devin is $606.68
+$612.60 + $19.92 / 2 = $622.56
+Total for Devin is $622.56
 
 
 Calculating Rent for Kevin
 $1,430.00 / 3 * 1.018 = $485.25
 Adding in Utility Smart bill
-$485.25 + $60.86 / 3 = $505.53
+$485.25 + $82.15 / 2 = $526.32
 Adding in Cable bill
-$505.53 + $43.33 / 2 = $527.20
+$526.32 + $64.99 / 2 = $558.82
 Adding in Electric bill
-$527.20 + $153.81 / 3 = $578.47
+$558.82 + $66.84 / 2 = $592.24
 Adding in Gas bill
-$578.47 + $23.56 / 3 = $586.32
-Total for Kevin is $586.32
+$592.24 + $19.92 / 2 = $602.20
+Total for Kevin is $602.20
 
 
 Calculating Rent for Valerie
 $1,430.00 / 3 * 1.018 = $485.25
 Adding in rent for Penny.
 $485.25 + $30.00 * 1.018 = $515.79
-Adding in Utility Smart bill
-$515.79 + $60.86 / 3 = $536.07
-Adding in Electric bill
-$536.07 + $153.81 / 3 = $587.34
-Adding in Gas bill
-$587.34 + $23.56 / 3 = $595.20
-Total for Valerie is $595.20
+Total for Valerie is $515.79
 
 
 
-Devin owes $606.68 for Rent, Utility Smart, Cable, Electric, Gas.
-Kevin owes $586.32 for Rent, Utility Smart, Cable, Electric, Gas.
-Valerie owes $595.20 for Rent, Utility Smart, Electric, Gas.
+Devin owes $622.56 for Rent, Utility Smart, Cable, Electric, Gas.
+Kevin owes $602.20 for Rent, Utility Smart, Cable, Electric, Gas.
+Valerie owes $515.79 for Rent.

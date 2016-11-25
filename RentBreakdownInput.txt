@@ -4,23 +4,23 @@
 	"utilities":[
 		{
 			"utilityName":"Utility Smart",
-			"utilityCost":"60.86",
-			"splitBill":["Devin" ,"Kevin","Valerie"]
+			"utilityCost":"82.15",
+			"splitBill":["Devin" ,"Kevin"]
 		},
 		{
 			"utilityName":"Cable",
-			"utilityCost":"43.33",
+			"utilityCost":"64.99",
 			"splitBill":["Devin" ,"Kevin"]
 		},
 		{
 			"utilityName":"Electric",
-			"utilityCost":"153.81",
-			"splitBill":["Devin" ,"Kevin","Valerie"]
+			"utilityCost":"66.84",
+			"splitBill":["Devin" ,"Kevin"]
 		},
 		{
 			"utilityName":"Gas",
-			"utilityCost":"23.56",
-			"splitBill":["Devin" ,"Kevin","Valerie"]
+			"utilityCost":"19.92",
+			"splitBill":["Devin" ,"Kevin"]
 		}
 	],
 	"tenants":[
